@@ -1,7 +1,29 @@
 aid: yield-guide-games
-name: Yield Guide Games
-description: Yield Guide Games is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yield-guide-games.png
+name: Yield Guild Games
+description: >-
+  Yield Guild Games (YGG) is a decentralized autonomous organization (DAO) and
+  one of the world's first and largest web3 gaming guilds, founded in 2020 by
+  Gabby Dizon, Beryl Li, and the pseudonymous "Owl of Moistness" out of the
+  Philippines. YGG invests in NFTs and blockchain-game assets, lends them to
+  players, and shares the resulting yield with its community and YGG token
+  holders. Its onchain Guild Protocol (launched on Base) equips guilds with a
+  modular library of smart-contract tooling for treasury wallets, programmable
+  quests, and contribution tracking, while YGG Play acts as a publisher for
+  casual crypto games. The company was backed by Andreessen Horowitz (a16z),
+  which led a $4.6M round in 2021. Note: this repository slug "yield-guide-games"
+  preserves an upstream typo of the real company name, Yield Guild Games.
 url: https://raw.githubusercontent.com/api-evangelist/yield-guide-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Web3
+- Blockchain
+- DAO
+- NFT
+- Play-to-Earn
+- Crypto
 apis: []
+common:
+- type: DomainSecurity
+  url: security/yield-guide-games-domain-security.yml
+- type: Website
+  url: https://www.yieldguild.io
+- type: GitHubOrganization
+  url: https://github.com/yieldguildgames
+- type: Blog
+  url: https://medium.com/yield-guild-games
+- type: Documentation
+  url: https://yieldguild.notion.site/Yield-Guild-Games-Wiki-d8b597893d3c4a2ea1019d5e609a3c49
+- type: Support
+  url: https://community.yieldguild.io/
+- type: TermsOfService
+  url: https://www.yggplay.fun/terms-of-use
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
