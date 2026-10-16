@@ -2,6 +2,13 @@
   "repo": "yield-guide-games",
   "feeds": [
     {
+      "source": "https://medium.com/yield-guild-games",
+      "feed_url": "https://medium.com/feed/yield-guild-games",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://github.com/yieldguildgames",
       "feed_url": "https://github.com/yieldguildgames",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
